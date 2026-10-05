@@ -1,0 +1,62 @@
+[
+  {
+    "dataset": "medical",
+    "id": 1,
+    "type": "公开 SQL 执行",
+    "expected": "SQL 可执行",
+    "actual": "成功",
+    "passed": true,
+    "rows": 1,
+    "note": "按执行结果验证语义，不比较 SQL 字符串"
+  },
+  {
+    "dataset": "medical",
+    "id": 2,
+    "type": "公开 SQL 执行",
+    "expected": "SQL 可执行",
+    "actual": "成功",
+    "passed": true,
+    "rows": 500,
+    "note": "按执行结果验证语义，不比较 SQL 字符串"
+  },
+  {
+    "dataset": "telecom",
+    "id": 1,
+    "type": "公开 SQL 执行",
+    "expected": "SQL 可执行",
+    "actual": "成功",
+    "passed": true,
+    "rows": 500,
+    "note": "按执行结果验证语义，不比较 SQL 字符串"
+  },
+  {
+    "dataset": "telecom",
+    "id": 2,
+    "type": "公开 SQL 执行",
+    "expected": "SQL 可执行",
+    "actual": "成功",
+    "passed": true,
+    "rows": 500,
+    "note": "按执行结果验证语义，不比较 SQL 字符串"
+  },
+  {
+    "dataset": "domain_calc",
+    "id": "b40962fe65f24d9",
+    "type": "公开答案计算",
+    "expected": "-2.86%",
+    "actual": "-2.86%",
+    "passed": true,
+    "rows": 2,
+    "note": "(34-35)/35"
+  },
+  {
+    "dataset": "domain_calc",
+    "id": "98a478f23b754a7",
+    "type": "公开答案计算",
+    "expected": "2369.4",
+    "actual": "2369.4",
+    "passed": true,
+    "rows": 7,
+    "note": "2438.4-69.0"
+  }
+]

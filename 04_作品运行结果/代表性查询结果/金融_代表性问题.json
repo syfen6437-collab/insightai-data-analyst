@@ -1,0 +1,13 @@
+{
+  "领域": "金融",
+  "问题": "统计不同类型的客户数量，请输出对应SQL语句",
+  "来源任务": "finance-2",
+  "sql": "SELECT client_type, COUNT(*) AS client_count FROM clients GROUP BY client_type",
+  "结果": [
+    {"client_type": "养老金", "client_count": 742},
+    {"client_type": "机构", "client_count": 3798},
+    {"client_type": "个人", "client_count": 8969},
+    {"client_type": "家族信托", "client_count": 1491}
+  ],
+  "说明": "官方金融数据中的真实成功任务，展示分组统计能力，不含联系方式等敏感字段。"
+}

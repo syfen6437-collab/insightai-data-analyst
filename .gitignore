@@ -1,0 +1,45 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local secrets and runtime logs
+.env
+*.log
+.deps-ready
+
+# Official data and local analytical caches
+official_cache/
+official_source/
+*.duckdb
+*.sqlite-wal
+*.sqlite-shm
+03_可运行程序/official_cache/
+03_可运行程序/official_source/
+03_可运行程序/.venv/
+
+# Bundled small demo database remains available for offline startup
+!sample_data/
+!sample_data/*.sqlite
+
+# Evaluation outputs containing official task text or raw evidence
+04_作品运行结果/六类正式结果JSON/
+04_作品运行结果/执行审计JSONL/
+official_results/
+
+# Archives and recording intermediates
+*.zip
+*.7z
+*.rar
+*.webm
+work/
+tmp/
+
+# OS/editor files
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/
